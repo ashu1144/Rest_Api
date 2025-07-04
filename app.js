@@ -7,8 +7,9 @@ const connectDB = require("./db/connect.js");
 const PORT = process.env.PORT || 5000;
 
 app.use("/api/products", product_routes);
+
 app.get("/", (req, res) => {
-  res.send("i am boy");
+  res.send("hello ");
 });
 
 const start = async () => {

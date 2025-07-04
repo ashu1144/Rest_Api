@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use("/api/products", product_routes);
 
 app.get("/", (req, res) => {
-  res.send("hello ");
+  res.send("hello copy url to see products https://restapi-production-d393.up.railway.app/api/products/testing ");
 });
 
 const start = async () => {
